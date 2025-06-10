@@ -5,8 +5,10 @@ let
     rpicam-apps = (import ./packages/rpicam-apps.nix);
   };
 
-  dtsFiles = {
-    ov5647 = ./files/ov5647-overlay.dts;
+  overlays = {
+    ov5647 = (import ./overlays/ov5647.nix {
+      compatibleWith = config._pi.camera.dtsCompatible;
+    });
   };
 in
 {
@@ -56,9 +58,7 @@ in
         overlays = [
           {
             name = "ov5647-overlay";
-            dtsFile = pkgs.replaceVars dtsFiles.ov5647 {
-              dtsCompatible = config._pi.camera.dtsCompatible;
-            };
+            dtsFile = overlays.ov5647;
           }
         ];
       };
