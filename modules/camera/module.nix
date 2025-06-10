@@ -12,6 +12,10 @@ in
 {
   options = {
     _pi = {
+      # deviceTreeFilter = lib.mkOption {
+      #   type = lib.types.str;
+      #   default = "*rpi*";
+      # };
       camera = {
         users = lib.mkOption {
           type = lib.types.nullOr(lib.types.listOf(lib.types.str));
