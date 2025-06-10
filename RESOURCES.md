@@ -1,0 +1,25 @@
+# resources
+
+- https://nixos.wiki/wiki/NixOS_on_ARM/Raspberry_Pi
+- https://www.raspberrypi.com/documentation/accessories/camera.html
+- https://www.raspberrypi.com/documentation/computers/camera_software.html#building-rpicam-apps-without-building-libcamera
+- https://github.com/raspberrypi/libcamera
+- https://github.com/sergei-mironov/nixos-raspi-camera/blob/main/nix/rpicam-apps.nix
+- https://github.com/nix-community/raspberry-pi-nix/blob/master/overlays/libcamera.nix#L25
+- https://github.com/raspberrypi/libcamera/issues/226
+- https://discourse.nixos.org/t/how-to-configure-qemu-binfmt-wrapper-on-a-non-nixos-machine/7879/2
+- https://github.com/raspberrypi/firmware/blob/master/boot/overlays/ov5647.dtbo
+- https://github.com/NixOS/nixpkgs/pull/241534
+- https://github.com/NixOS/nixpkgs/issues/154163
+- https://forums.raspberrypi.com/viewtopic.php?t=174375
+- https://raspberrypi.stackexchange.com/questions/141106/how-to-fix-the-libcamera-error-could-not-open-any-dmaheap-device
+- https://wiki.nixos.org/wiki/NixOS_on_ARM/Raspberry_Pi_4#config.txt
+- https://www.raspberrypi.com/documentation/computers/compute-module.html
+- https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
+- https://github.com/NixOS/nixpkgs/blob/master/pkgs/os-specific/linux/device-tree/raspberrypi.nix
+- https://github.com/NixOS/nixpkgs/blob/master/pkgs/os-specific/linux/kernel/linux-rpi.nix
+- https://search.nixos.org/packages?channel=24.11&from=0&size=50&sort=relevance&type=packages&query=linuxKernel.kernels.linux_rpi
+- https://forums.raspberrypi.com/viewtopic.php?t=362707
+- https://thewagner.net/blog/2024/07/31/raspberry-pi-camera-on-nixos/
+- https://github.com/raspberrypi/linux/blob/fbd8b3facb36ce888b1cdcf5f45a78475a8208f2/arch/arm/boot/dts/overlays/ov5647-overlay.dts
+- https://github.com/plmercereau/nixos-pi-zero-2/blob/main/sd-image.nix#L19-L41
