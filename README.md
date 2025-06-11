@@ -3,16 +3,24 @@
 Create **SD card** images for **Raspberry Pi's** with **NixOS**.
 
 **Note**  
-The main `config/default.nix` is currently missing, therefore all modules will not work as expected.  
 `flake` based configuration may be implemented to handle different `instances` (or systems), build steps, etc.
 
 ---
 
 # setup
 
+### install
+
 ```sh
 git clone https://github.com/JimJ92120/nixos-raspberry-pi-build.git
 ```
+
+### config
+
+#### `config/private.nix`
+
+`config/private.nix` is meant for common yet private configuration such as credentials, networking, etc that shouldn't be public.
+File is **ignored** (see `.gitignore`) by default and is only meant to be an example.
 
 # build
 
