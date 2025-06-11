@@ -23,3 +23,4 @@
 - https://thewagner.net/blog/2024/07/31/raspberry-pi-camera-on-nixos/
 - https://github.com/raspberrypi/linux/blob/fbd8b3facb36ce888b1cdcf5f45a78475a8208f2/arch/arm/boot/dts/overlays/ov5647-overlay.dts
 - https://github.com/plmercereau/nixos-pi-zero-2/blob/main/sd-image.nix#L19-L41
+- https://www.raspberrypi.com/documentation/computers/camera_software.html#stream-video-over-a-network-with-rpicam-apps
