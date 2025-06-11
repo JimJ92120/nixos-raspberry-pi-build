@@ -11,13 +11,14 @@ in
 
   config = {
     _config = {
-      username = USERNAME;
-      hostName = USERNAME;
-      ip = "192.168.50.15";
-    };
-
-    _nixos = {
-      version = "25.05";
+      user = {
+        name = USERNAME;
+      };
+      
+      networking = {
+        hostName = USERNAME;
+        staticIp = "192.168.50.15";
+      };
     };
 
     _pi = {
