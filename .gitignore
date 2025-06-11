@@ -1,2 +1,4 @@
 result/
 build/
+
+config/private.nix

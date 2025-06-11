@@ -14,12 +14,6 @@
     "${modulesPath}/installer/sd-card/sd-image-aarch64.nix"
   ];
 
-  # fix kernel not compiling
-  disabledModules = [
-    "${modulesPath}/profiles/all-hardware.nix"
-    "${modulesPath}/profiles/base.nix"
-  ];
-
   config = {
     system.copySystemConfiguration = lib.mkForce true;
 
